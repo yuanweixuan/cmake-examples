@@ -1,7 +1,8 @@
 cmake_minimum_required(VERSION 3.5)
 
 project(cmake_examples_install)
-
+# 打印CMAKE_INSTALL_PREFIX 默认值
+message(STATUS "CMAKE_INSTALL_PREFIX = ${CMAKE_INSTALL_PREFIX}")
 ############################################################
 # Create a library
 ############################################################
